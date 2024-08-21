@@ -774,9 +774,10 @@ aside p {
 
 .cursor{
     position: fixed;
-    width: 50px;
-    height: 50px;
-    border: 1px solid aqua;
+    width: 8px;
+    height: 8px;
+    background-color: rgb(0, 255, 255);
+    
     border-radius: 50%;
     left: 0;
     top: 0;
@@ -787,8 +788,8 @@ aside p {
 
 .cursor2{
     position: fixed;
-    width: 35px;
-    height: 35px;
+    width: 18px;
+    height: 18px;
     border: 1px solid aqua;
     border-radius: 50%;
     left: 0;
@@ -800,8 +801,8 @@ aside p {
 
 .cursor3{
     position: fixed;
-    width: 18px;
-    height: 18px;
+    width: 35px;
+    height: 35px;
     border: 1px solid aqua;
     border-radius: 50%;
     left: 0;
@@ -813,9 +814,10 @@ aside p {
 
 .cursor4{
     position: fixed;
-    width: 8px;
-    height: 8px;
-    background-color: rgb(0, 255, 255);
+    width: 50px;
+    height: 50px;
+    /* background-color: rgb(0, 255, 255); */
+    border: 1px solid aqua;
     border-radius: 50%;
     left: 0;
     top: 0;
